@@ -1,0 +1,43 @@
+{
+  "name": "BlockBaboon-FugaCubica",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "Gravity": 196.2
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Ambient": [0.15, 0.17, 0.22],
+        "Brightness": 1.8,
+        "ClockTime": 14,
+        "FogEnd": 350,
+        "FogStart": 40
+      }
+    },
+    "SoundService": {
+      "$className": "SoundService"
+    }
+  }
+}
